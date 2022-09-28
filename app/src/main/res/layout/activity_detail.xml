@@ -22,13 +22,14 @@
 
     <RatingBar
         android:id="@+id/rbVoteAverage"
-        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:isIndicator="true"
+        style="?android:attr/ratingBarStyleIndicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:isIndicator="true"
+
         android:numStars="10"
         android:stepSize="0.5"/>
 
